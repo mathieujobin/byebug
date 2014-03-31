@@ -1,4 +1,4 @@
-before_script: bundle exec rake compile
+before_script: bundle exec rake compile && gem env
 rvm:
 - 2.0.0
 - 2.1.0
